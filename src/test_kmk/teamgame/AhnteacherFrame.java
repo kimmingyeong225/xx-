@@ -50,7 +50,7 @@ public class AhnteacherFrame extends JFrame {
 
 	private void initComponents() {
 		// 배경 이미지 설정
-		ImageIcon backgroundImage = new ImageIcon("img/Frame_background.jpg"); // 배경 이미지(임시) 수정 필요!!!!!!
+		ImageIcon backgroundImage = new ImageIcon("img/bg.jpg"); // 배경 이미지(임시) 수정 필요!!!!!!
 		backgroundLabel = new JLabel(backgroundImage);
 		backgroundLabel.setSize(1600, 900);
 		add(backgroundLabel);
